@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 60px;
+            right: 30px;
+            border-radius:60px;
+            background-color: white;
+            opacity: 0.5;
+            cursor: pointer;
+            
+        }
+
+        #myBtn:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Gotop"><img style="width: 60px;height: 60px;" src=""></button>
+    <div style="background-color: blueviolet;height: 2000px;"></div>
+</body>
+<script>
+    window.onscroll = scrollFunction;
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    function topFunction() {
+        document.body.scrollTop = 0; 
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+
+</html>

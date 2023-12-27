@@ -1,0 +1,82 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+table {
+    text-align: center;
+    font-weight: bolder;
+}
+
+#A {
+    position: sticky;
+    top: -2%;
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    background-color: white;
+    z-index: 9999;
+    box-shadow: 0 5px 10px -5px gray;
+
+}
+
+.Page {
+    width: 150px;
+    height: 80px;
+    margin: auto;
+    text-align: center;
+    line-height: 80px;
+    font-weight: bolder;
+    font-size: 20px;
+    float: left;
+
+}
+
+.Infor {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+
+.A {
+    width: 1500px;
+    height: 70px;
+}
+
+.B {
+    width: 650px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 40px;
+    box-shadow:  5px 5px 5px gray;
+}
+
+.C {
+    width: 650px;
+    height: 350px;
+    margin-left: 800px;
+    margin-top: -360px;
+    box-shadow:  5px 5px 5px gray;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    right: 40px;
+    border-radius: 60px;
+    background-color: white;
+    opacity: 0.7;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+
+}
