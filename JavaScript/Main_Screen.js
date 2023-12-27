@@ -27,3 +27,13 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+var modalElem = document.getElementById("tyModal");
+        var spanElem = document.getElementsByClassName("tyClose")[0];
+
+        spanElem.onclick = function () {
+            modalElem.style.display = "none";
+        }
+
+        setTimeout(function () {
+            modalElem.style.display = "block";
+        }, 1000);
